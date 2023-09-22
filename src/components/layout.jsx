@@ -18,7 +18,7 @@ export default function Layout({ pageTitle, children }) {
         {data.site.siteMetadata.title}
       </header>
       <nav>
-        <ul className="flex">
+        <ul className="flex mb-5">
           <li>
             <Link className="pr-8 text-black underline" to="/">
               Home
@@ -37,7 +37,7 @@ export default function Layout({ pageTitle, children }) {
         </ul>
       </nav>
       <main>
-        <h1 className="text-purple-700 text-3xl">{pageTitle}</h1>
+        <h1 className="text-purple-700 text-3xl mb-6">{pageTitle}</h1>
         {children}
       </main>
     </div>
